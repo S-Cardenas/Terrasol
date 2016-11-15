@@ -3335,7 +3335,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/terra_big_1a_email.jpg");
+		background-image: url("../../images/fachada_2 .jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3345,6 +3345,7 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		/*background-size: 100% 100%;*/
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 60vh;
