@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	</head>
 	<body>
 
@@ -81,7 +82,7 @@
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<a href="index.html" class="image">
+									<a href="images/APTO_0002.jpg" rel="group" class="image fancybox">
 										<img src="images/APTO_0002.jpg" alt="" data-position="center center" />
 									</a>
 
@@ -98,7 +99,7 @@
 									</div>
 								</section>
 								<section>
-									<a href="index.html" class="image">
+									<a href="images/APTO_0001.jpg" class="image fancybox" rel="group">
 										<img src="images/APTO_0001.jpg" alt="" data-position="top center" />
 									</a>
 									<div class="content">
@@ -117,7 +118,7 @@
 									</div>
 								</section>
 								<section>
-									<a href="index.html" class="image">
+									<a href="images/APTO_0009.jpg" class="image fancybox" rel="group">
 										<img src="images/APTO_0009.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
@@ -158,17 +159,71 @@
               <!-- <span class="image fit"><img src="images/pic03.jpg" alt="" /></span> -->
               <div class="box alt">
                 <div class="row 50% uniform">
-                  <div class="4u"><span class="image fit"><img src="images/apto_0000B.jpg" alt="" /></span></div>
-                  <div class="4u"><span class="image fit"><img src="images/APTO_0006.jpg" alt="" /></span></div>
-                  <div class="4u$"><span class="image fit"><img src="images/apto_0002B.jpg" alt="" /></span></div>
+                  <div class="4u">
+										<span class="image fit">
+											<a href="images/apto_0000B.jpg" class="fancybox">
+												<img src="images/apto_0000B.jpg" alt="" />
+											</a>
+										</span>
+									</div>
+                  <div class="4u">
+										<span class="image fit">
+											<a href="images/APTO_0006.jpg" class="fancybox">
+												<img src="images/APTO_0006.jpg" alt="" />
+											</a>
+										</span>
+									</div>
+                  <div class="4u$">
+										<span class="image fit">
+											<a href="images/apto_0002B.jpg" class="fancybox">
+												<img src="images/apto_0002B.jpg" alt="" />
+											</a>
+										</span>
+									</div>
                   <!-- Break -->
-                  <div class="4u"><span class="image fit"><img src="images/apto_0005B.jpg" alt="" /></span></div>
-                  <div class="4u"><span class="image fit"><img src="images/apto_0006B.jpg" alt="" /></span></div>
-                  <div class="4u$"><span class="image fit"><img src="images/APTO_0004.jpg" alt="" /></span></div>
+                  <div class="4u">
+										<span class="image fit">
+											<a href="images/apto_0005B.jpg" class="fancybox">
+												<img src="images/apto_0005B.jpg" alt="" />
+											</a>
+										</span>
+									</div>
+                  <div class="4u">
+										<span class="image fit">
+											<a href="images/apto_0006B.jpg" class="fancybox">
+												<img src="images/apto_0006B.jpg" alt="" />
+											</a>
+										</span>
+									</div>
+                  <div class="4u$">
+										<span class="image fit">
+											<a href="images/APTO_0004.jpg" class="fancybox">
+												<img src="images/APTO_0004.jpg" alt="" />
+											</a>
+										</span>
+									</div>
                   <!-- Break -->
-                  <div class="4u"><span class="image fit"><img src="images/APTO_0005.jpg" alt="" /></span></div>
-                  <div class="4u"><span class="image fit"><img src="images/apto_0001B.jpg" alt="" /></span></div>
-                  <div class="4u$"><span class="image fit"><img src="images/APTO_0008.jpg" alt="" /></span></div>
+                  <div class="4u">
+										<span class="image fit">
+											<a href="images/APTO_0005.jpg" class="fancybox">
+												<img src="images/APTO_0005.jpg" alt="" />
+											</a>
+										</span>
+									</div>
+                  <div class="4u">
+										<span class="image fit">
+											<a href="images/apto_0001B.jpg" class="fancybox">
+												<img src="images/apto_0001B.jpg" alt="" />
+											</a>
+										</span>
+									</div>
+                  <div class="4u$">
+										<span class="image fit">
+											<a href="images/APTO_0008.jpg" class="fancybox">
+												<img src="images/APTO_0008.jpg" alt="" />
+											</a>
+										</span>
+									</div>
                 </div>
               </div>
 
@@ -256,6 +311,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script type="text/javascript" src="assets/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$(".fancybox").fancybox();
+				});
+			</script>
 	</body>
 </html>
