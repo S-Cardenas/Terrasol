@@ -2225,6 +2225,14 @@
 				width: 100%;
 			}
 
+			.image.ilm {
+				width: 75%;
+			}
+
+			.image.ilm img {
+				width: 75%;
+			}
+
 		.image.main {
 			display: block;
 			margin: 2.5em 0;
